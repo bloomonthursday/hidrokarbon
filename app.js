@@ -1,6 +1,6 @@
 
 function goTo(id){
-  const pages = {beranda:'index-v7.html', materi:'materi.html', 'zona-ssi':'zona-ssi.html', ar:'ar-molekul.html', kalkulator:'kalkulator.html', proyek:'proyek.html', kuis:'kuis.html'};
+  const pages = {beranda:'index.html', materi:'materi.html', 'zona-ssi':'zona-ssi.html', ar:'ar-molekul.html', kalkulator:'kalkulator.html', proyek:'proyek.html', kuis:'kuis.html'};
   if(pages[id]) window.location.href = pages[id];
 }
 
